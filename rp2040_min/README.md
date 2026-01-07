@@ -39,3 +39,5 @@ fn main() -> ! {\
 }
 
 - for error "rust-lld: error: cannot find linker script defmt.x", type "cargo add defmt" in cmd to fix
+
+- launch with 'cargo run --release'

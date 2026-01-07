@@ -25,7 +25,7 @@ fn main() -> ! {
 
     // set LED pin output
     pac.SIO.gpio_out_set().write(|w| unsafe {
-        w.bits(1<<LED_PIN);
+        w.bits(1 << LED_PIN);
         w
     });
 

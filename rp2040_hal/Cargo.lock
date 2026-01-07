@@ -176,7 +176,7 @@ dependencies = [
 ]
 
 [[package]]
-name = "rp2040_min"
+name = "rp2040_hal"
 version = "0.1.0"
 dependencies = [
  "cortex-m",
