@@ -10,6 +10,3 @@ rustflags = [
 ]
 runner = "elf2uf2-rs --deploy --serial --verbose"
 
-#[target.'cfg(all(target_arch = "arm", target_os = "none"))']
-#runner = "picotool load --update --verify --execute -t elf"
-#runner = "elf2uf2-rs -d"
