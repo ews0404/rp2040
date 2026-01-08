@@ -8,6 +8,7 @@ cortex-m = { version = "0.7.7", features = ["critical-section-single-core"] }
 cortex-m-rt = "0.7.5"
 defmt = "1.0.1"
 panic-halt = "1.0.0"
+rp2040-boot2 = "0.3.0"
 rp2040-pac = "0.6.0"
 
 # needed to get rid of "can't find crate for `test`" message
